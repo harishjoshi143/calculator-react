@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+button {
+  padding: 15px 5px;
+  width: 25%;
+  background-color: #000814;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+button{
+  color: green;
+}
+button:nth-child(17) {
+  color: white;
+  background-color: rgba(0, 128, 0, 0.842);
+}
+input {
+  width: 94%;
+  padding: 20px;
+  font-size: 20px;
+}
+.bg_grey {
+  background-color: #000814;
+}
